@@ -1,0 +1,5 @@
+<?php
+	$arr = range(1, 10);
+	$temp=array_sum(range(1, 10));
+	echo "Сумма элементов массива: $temp";
+?>
