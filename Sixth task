@@ -1,0 +1,17 @@
+<?php
+for($i=0;$i<10;$i++){
+  $mas[]=rand(0,10);
+}
+print_r( $mas);
+
+echo "\nЧётные числа: ";
+foreach ($mas as $key => $value) {
+    if ($value % 2) { 
+        continue;
+    }
+    else 
+        {
+          echo $mas[$key]," ";
+        }
+}
+?>
