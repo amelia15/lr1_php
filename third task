@@ -1,0 +1,6 @@
+<?php
+$surname = array("1" => "Петров", "2" => "Гонцов", "3" => "Буйкова", "4" => "Сидоренко");
+asort($surname);
+foreach ($surname as $key => $val) {
+    echo "$val ";
+}
