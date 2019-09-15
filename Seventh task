@@ -1,0 +1,8 @@
+<?php
+$fp = fopen("projects/first/input.txt", "r");
+if ($fp)
+{
+    echo 'Файл открыт';
+    fclose($fp); // Закрытие файла
+}
+?>
