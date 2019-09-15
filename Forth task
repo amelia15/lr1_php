@@ -1,0 +1,21 @@
+<?php
+$menu=1;
+
+$subject = [
+ 'name'=>['веб-программирование', 'программирование мобильных устройств'],
+ 'lector'=>['Алексеев В. О.', 'Поляков А. О.'],
+ 'progrLang'=>['php', 'kotlin'],
+ 'labWorks'=>['4', '7'],
+];
+
+if($menu==1)
+{
+    echo "Предмет: ",$subject['name'][0], ". Ведёт: ", $subject['lector'][0],". Изучается язык: ", $subject['progrLang'][0],". Нужно сдать: ", $subject['labWorks'][0],
+" лабораторные работы."; 
+}
+else
+{
+    echo "Предмет: ",$subject['name'][1], ". Ведёт: ", $subject['lector'][1],". Изучается язык: ", $subject['progrLang'][1],". Нужно сдать: ", $subject['labWorks'][1],
+" лабораторные работы."; 
+}
+?>
