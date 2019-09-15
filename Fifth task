@@ -1,0 +1,8 @@
+<?php
+	$arr = range(1, 30);
+	echo "\nПервый элемент массива: ", array_pop($arr);
+	echo "\nПоследний элемент массива: ",array_shift($arr);
+	$num = array_push($arr, 100, 200);
+	echo "\nКоличество элементов в массиве: $num\n\n";
+	print_r($arr);
+?>
