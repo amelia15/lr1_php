@@ -7,7 +7,7 @@
 
 ***
 
-<p align="justify">
+<p align="center">
 	Хід роботи:
 </p>
 
